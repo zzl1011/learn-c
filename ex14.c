@@ -16,8 +16,8 @@ int main() {
 
   s2 = (char *)malloc(strlen(s1)+1);
   scpy(s2, s1);
-  free(s2);
   printf("%s\n", s2);
+  free(s2);
 
   return 0;
 }
