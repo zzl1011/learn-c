@@ -2,15 +2,18 @@
 #include <string.h>
 #include <stdlib.h>
 
-void scpy(char *s,  char *t) {
+void scpy(char *s,  char *t) 
+{
     int i=0;
 
-    while((s[i] = t[i]) != '\0') {
+    while((s[i] = t[i]) != '\0') 
+    {
       i++;
     }
 }
 
-int main() {
+int main() 
+{
   char *s1 = "Hello world!";
   char *s2 = NULL;
 
