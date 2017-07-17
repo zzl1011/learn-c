@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
   float fahr, celsius;
   float lower, upper, step;
 
@@ -10,7 +11,8 @@ int main() {
 
   fahr = lower;
   printf("华氏温度  摄氏温度\n");
-  while (fahr <= upper) {
+  while (fahr <= upper) 
+  {
     celsius = (5.0/9.0)*(fahr-32);
     printf("%3.0f %6.2f\n", fahr, celsius);
     fahr = fahr+ step;
