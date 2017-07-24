@@ -2,13 +2,16 @@
 #include <string.h>
 #include <stdlib.h>
 
-void scpy(char *s, char *t) {
-    while((*s++ = *t++) != '\0') {
+void scpy(char *s, char *t) 
+{
+    while((*s++ = *t++) != '\0') 
+    {
       ;
     }
 }
 
-int main() {
+int main() 
+{
     char *s1 = "Hello world!";
     char *s2 = NULL;
 

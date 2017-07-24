@@ -3,7 +3,8 @@
 /* 当fahr=0,20,...,300时，分别打印
  * 华氏温度与摄氏温度对照表 */
 
-int main() {
+int main() 
+{
   int fahr, celsius;
   int lower, upper, step;
 
